@@ -1,2 +1,5 @@
-# NEC
-NEC is a simple Number Encryption Algorithm that i found was used in 2001 in the Romanian Military.
+### How it works ?
+- Each letter has it's own number, and so each word is basically a set of numbers.
+
+### How to improve ?
+- Shuffle the numbers, encode them using ASCII, assign an emoji or a roman letter to each obfuscated number.
