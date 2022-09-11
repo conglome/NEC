@@ -2,6 +2,7 @@ alphabet = {"a": 5, "b": 2, "c": 1, "d": 3, "e": 4, "f": 7, "g": 54, "h": 62, "i
 
 input_word = input("Input a sentence : ") # user input
 
-for q in input_word: # looping trough each alphabet letter 
-    print("Number - > ", alphabet[q]) # printing
+for q in input_word: # looping trough the alphabet
+    result = alphabet[q] + alphabet[q] # doubling the numbers as a obfuscation technique, to decode just cut them in half.
+    print("Number - > ", result) # printing the result
 
